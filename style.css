@@ -41,3 +41,23 @@
     font-size:30px;
     color: aliceblue;
 }   
+@media (min-width:375px){
+    .ground{
+        width:90%;
+    }
+}
+@media (min-width:376px) and (max-width:426px){
+    .ground{
+        width:80%;
+    }
+}
+@media (min-width:427px) and (max-width:768px){
+    .ground{
+        width:50%;
+    }
+}
+@media (min-width:769px){
+    .ground{
+        width:30%;
+    }
+}
